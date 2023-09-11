@@ -46,5 +46,4 @@ pokeApi.getPokemonById = (id) => {
     return fetch(url)
         .then((response) => response.json())
         .then(convertPokeApiDetailToPokemon)
-        .then((pokemonObject) => console.log(pokemonObject))
 }
